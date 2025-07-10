@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/zakariafakou/dp/mcp-server-client-spring"
+      ]
+    },
+    "Python-MCP-Server": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "/Users/zakariafalkou/dp/mcp-server-client-spring/python-mcp-server/server.py"
+      ]
+    }
+  }
+}
