@@ -51,7 +51,6 @@ Serveur Python léger utilisant `FastMCP`, exposant un outil métier et communiq
 - Chargement via `mcp-servers.json`
 
 ---
-
 ## ⚙️ Technologies & Protocoles
 
 | Catégorie      | Technologies                                 |
@@ -61,6 +60,19 @@ Serveur Python léger utilisant `FastMCP`, exposant un outil métier et communiq
 | Communication  | MCP, SSE, STDIO                              |
 | Outils         | Postman, Ollama                              |
 | Paradigmes     | Architecture agentique, distribuée, modulaire|
+
+###  Captures d'Écran
+
+![étape 1: get](image/1get.png)
+
+![étape 2: get result](image/2_get_result.png)
+![étape 3: post initialisation](image/3_post_initialisation.png)
+![étape 4: result in post](image/4_result_in_post.png)
+![étape 5: get result](image/5_get_result.png)
+![étape 6: post With notification](image/6_post_With_notif.png)
+![étape 7: post demende la list des tools ressources prompt](image/7_post_demende_la_list_des_tools_ressources_prompt.png)
+![étape 8: post](image/8_post.png)
+![étape 9: result](image/8_result.png)
 
 ---
 
@@ -112,3 +124,7 @@ Ce projet démontre la puissance d’une **architecture multi-agents interopéra
 
 **Zakaria Falkou**  
 _Master SDIA – Faculté des Sciences, Meknès_
+
+
+
+
